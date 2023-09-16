@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insert_alarm"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Alarm"
+        android:textSize="45dp"
+        android:layout_margin="7dp"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"/>
+
+    <TimePicker
+        android:id="@+id/new_alarm_timepicker"
+        android:layout_margin="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/new_alarm_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the title of Alarm"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Alarm"
+        android:textSize="35dp"
+        android:id="@+id/Schedule_alarm"
+        android:layout_margin="34dp"
+        android:padding="5dp"/>
+
+</LinearLayout>
